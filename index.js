@@ -169,7 +169,7 @@ d3.csv(CSV_FILEPATH).then(data => {
 	svg.append('text')
 		.attr('text-anchor', 'middle')
 		.attr('transform', 'translate('+ (WIDTH/2) + ', ' + (HEIGHT + MARGIN.bottom - MARGIN.bottom / 3) + ')')
-		.text('Time (in yrs)');
+		.text('Time (in years)');
 
   svg.append('g')			
 		.attr('class', 'grid')
@@ -188,7 +188,7 @@ d3.csv(CSV_FILEPATH).then(data => {
 		.attr('x', 0 - (HEIGHT / 2))
 		.attr('dy', '1em')
 		.style('text-anchor', 'middle')
-		.text('Market capitalization');   
+		.text('Market capitalization (in billions USD)');   
 			
 	svg.append('g')			
 		.attr('class', 'grid')
