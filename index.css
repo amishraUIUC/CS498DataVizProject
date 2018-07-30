@@ -1,0 +1,42 @@
+#summary {
+  width: 40%;
+}
+
+  #summary p {
+    padding-right: 25px;
+  }
+
+.summary-year {
+  display: none;
+}
+
+#about-anchor {
+  float: right;
+  color: blue;
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+svg {
+  float: right;
+  border: 1px solid black;
+  font: 12px Arial;
+}
+
+  .line { 
+    stroke: black;
+    stroke-width: 2;
+    fill: none;
+  }
+
+  .axis path { 
+    stroke-width: 1;
+  }
+
+  .grid line {
+    stroke: gray;
+  }
+
+  .grid path {
+    stroke-width: 0;
+  }

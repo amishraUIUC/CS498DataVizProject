@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Shift from Old Value to New Value</title>
+		<style>
+			#home-anchor {
+				float: right;
+				color: blue;
+				border: 2px solid blue;
+				padding: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<a id="home-anchor" href="index.html">Home</a>
+		<h1>Shift from Old Value to New Value</h1>
+		<hr>
+		
+		<h1>Scenes</h1>
+		<p>The main scene is the multi-line time series chart visualizing the market capitalization of six companies over time after 2009. It is a line chart plotting two quantitative variables - market capitalization which is continuous and time which is also continuous. The chart respects Tufte's rule by maximizing the data-ink ratio by having a white background and avoiding redundant axis labels.</p>
+		<p>When the user moves and clicks the main visualization, he/she gets access to more scenes. Clicking on a specific year changes the scene by showing a new caption on the left and displaying the market cap info for each stock at that year's beginning. The new scenes use the same chart template but just have additional (new) information on the left that guide the user.</p>
+		
+		<h1>Annotations</h1>
+		<p>There are several annotations present on this dashboard. The legend serves as an annotation to distinguish between the six companies on the line chart. When the user clicks on a specific year, the market capitalizations of the stocks for that year also appear as annotations. </p>
+		
+		<h1>Parameters</h1>
+		<p>The main parameter for this dashboard is the year. Clicking on a year will provide information on the market capitalizations as an annotation and display information on the left regarding the events of that year and trends in play.</p>
+		
+		<h1>Triggers</h1>
+		<p>The main trigger that controls the dashboard's parameters is the user's mouse clicks. Clicking on a specific year value results in the following events:</p>
+		<ul type="1">
+			<li>The chart updates to show annotations of market capitalizations</li>
+			<li>The left side caption updates with additional information</li>
+		</ul>
+
+		<h1>The Data</h1>
+		<p>The data for this visualization was scraped from Yahoo! Finance and Ycharts. The data was originally market capitalization on the weekly time frame but the only data points taken were the yearly ones.</p>
+	</body>
+</html>
